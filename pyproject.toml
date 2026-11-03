@@ -1,0 +1,17 @@
+[project]
+name = "reefscan-data"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "pillow>=13.0.0",
+    "rich>=14.0.0",
+]
+
+[project.scripts]
+reefscan-data = "reefscan_data:main"
+
+[build-system]
+requires = ["uv_build>=0.12.22,<0.13.0"]
+build-backend = "uv_build"
